@@ -1,0 +1,176 @@
+
+
+
+body {
+	padding-top: 70px;*/
+  /*margin-bottom: 80px;*/
+
+ font-family: 'Lato', sans-serif;
+ /*background-image:url('img/Red-Light-Circles-Blur.jpg');*/
+}
+
+a{
+
+  text-decoration: none;
+  color: #FFAE5D;
+}
+
+.border-bottom-shadow{
+
+-webkit-box-shadow: 0px 1px 2px #D23641;
+-moz-box-shadow: 0px 1px 2px #D23641;
+box-shadow: 0px 1px 2px #D23641;
+}
+
+.lifesaver {
+	background-color: #1b0732;
+	color:#ffffff;
+	margin-bottom:0px;
+
+}
+
+.review {
+	background-color: #ffffff;
+	/*color:#ffffff;*/
+	/*margin-bottom:0px;*/
+
+	-webkit-box-shadow: 0px 1px 2px #666666;
+	-moz-box-shadow: 0px 1px 2px #666666;
+	box-shadow: 0px 1px 2px #666666;
+
+}
+
+.verticalLine {
+  border-right:  thin solid #ff0000;
+
+}
+
+.container-fluid{
+    padding:0 !important;
+}
+
+
+h1,h2,h3,h4{
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+label {
+	font-family: 'Play';
+
+}
+
+
+.speech{
+    position: relative;
+
+    /*height:100px;*/
+    /*width:200px;*/
+    background-color: rgba(255, 255, 255, 0.4);
+
+    border-radius: 10px;
+    padding: 20px;
+
+    margin-left: 50px;
+
+    /*float:left;*/
+  }
+.point{
+    position: absolute;
+    height: 0px;
+    width:0px;
+
+    border-top: 15px solid transparent;
+    border-right: 15px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+
+    /*background: #fcc;*/
+
+    top:20px;
+    left:-29px;
+  }
+
+.patient-name{
+  color: #D23641;
+
+}
+
+.well{
+
+  border-radius: 0px;
+}
+
+
+.hero{
+
+  background-color: #ebeaed;
+  text-align:center;
+
+}
+
+.hero h1{
+
+  font-family: 'Play', sans-serif;
+  color:#D23641;
+}
+/* *************************************************   */
+
+.search-table {
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 75%;
+width: auto;
+overflow: auto;
+display: block;
+}
+.search-table th {
+background-color: rgb(112, 196, 105);
+font-weight: normal;
+color: white;
+padding: 20px 30px;
+text-align: center;
+}
+.search-table td {
+background-color: rgb(238, 238, 238);
+padding: 20px 30px;
+color: rgb(111, 111, 111);
+}
+.search-table tr {
+
+
+}
+
+
+/*  ************************************************   */
+
+
+/*********** Navbar ******* */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.mynav .navbar-brand {
+  height: 80px;
+}
+
+.mynav .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mynav .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.mynav {
+
+/*padding-bottom: 50px;*/
+
+}
